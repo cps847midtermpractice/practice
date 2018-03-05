@@ -1,7 +1,4 @@
 
 language: python
 python:
-  - "3.4"
-cache: pip
-install:
-  - pip install -r requirements.txt --no-index --find-links file:///tmp/packages
+  - "3.6"
