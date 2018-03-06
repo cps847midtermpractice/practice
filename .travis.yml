@@ -6,8 +6,6 @@ install:
   - pip install codecov
 script:
   - python goodbyeworld.py
-  - python starterbot.py
   - coverage run goodbyeworld.py
-  - coverage run starterbot.py
 after_success:
   - codecov
