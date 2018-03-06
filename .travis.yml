@@ -9,3 +9,5 @@ script:
   - coverage run goodbyeworld.py
 after_success:
   - codecov
+notifications:
+  email: false
