@@ -31,3 +31,6 @@ deploy:
   deployment_group: ignition-servers
   region: us-west-2
   on: *2
+
+after_success:
+- bash < (curl -s https://codecov.io/bash)
