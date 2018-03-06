@@ -6,5 +6,6 @@ install:
   - pip install codecov
 script:
   - python goodbyeworld.py
+  - coverage run goodbyeworld.py
 after_success:
   - codecov
